@@ -1,0 +1,64 @@
+.box {
+  background-color: #C15B06;
+  background-image: url("./images/coverImage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100vh; */
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 80px 720px 1100px 900px 1500px 600px 80px;
+ 
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.nav {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  /* background-color: blue; */
+}
+
+.home {
+  display: grid;
+  grid-column: 3 / 12;
+  grid-row: 2 / 3;
+  /* background-color: red; */
+}
+
+.skill {
+  display: grid;
+  grid-column: 2 / 12;
+  grid-row: 3 / 4;
+  /* background-color: yellow; */
+}
+
+.experience {
+  grid-column: 2 / 12;
+  grid-row: 4 / 5;
+}
+
+.portfolioCover {
+  grid-column: 1 / 13;
+}
+
+
+.portfolio {
+  display: grid;
+  grid-column: 3 / 11;
+  grid-row: 5 / 6;
+}
+
+.contact {
+  grid-row: 6 / 7;
+  grid-column:  5 / 9;
+  /*background-color: blue;*/
+}
+
+.footer {
+  text-align: center;
+  grid-column: 1 / -1;
+  grid-row: 7 / 8;
+}
