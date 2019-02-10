@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import WOW from 'wowjs';
 import { Navigation } from './components/navigation/navigation.js';
 import { Home } from './components/home/home.js';
 import { Skill } from './components/skill/skill.js';
@@ -10,6 +11,11 @@ import { Contact } from './components/contact/contact.js';
 import { Footer } from './components/footer/footer.js';
 
 class App extends Component {
+  componentDidMount() {
+    const wow = new WOW.WOW();
+    wow.init();
+  }
+
   render() {
     return (
       <div className="box">

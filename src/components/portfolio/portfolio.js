@@ -22,14 +22,17 @@ export class Portfolio extends React.Component {
 								Highlighting my core skills, 
 								with ways of contacting me. 
 							</p>
-							<ion-icon src="../../logos/_ionicons_svg_logo-github.svg"></ion-icon>
 						</div>
 							<ul>
 								<li className="dib mr4">React</li>
 								<li className="dib mr4">React Router</li>
 								<li className="dib mr4">Tachyons</li>
 							</ul>
-							<a>
+							<a href="https://github.com/bisscay"
+								target="_blank"
+								rel="nofollow"
+								arial-label="Github Link"
+								>
 								<svg version="1.1"
 									xmlns="http://www.w3.org/2000/svg"
 									role="img"

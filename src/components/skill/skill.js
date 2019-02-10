@@ -1,7 +1,13 @@
 import React from 'react';
 import './skill.css';
+import WOW from 'wowjs';
 
 export class Skill extends React.Component {
+	componentDidMount() {
+		const wow = new WOW.WOW();
+		wow.init();
+	}
+
 	render() {
 		return(
 			<div>
@@ -24,7 +30,7 @@ export class Skill extends React.Component {
 						<h5>JAVASCRIPT</h5>
 						<div className="progressContainer">
 							<div className="progressBar">
-								<div id="progressJS"></div>
+								<div className="wow progressJS"></div>
 							</div>
 							<div id="progressPercentJS">85%</div>
 						</div>
@@ -32,14 +38,14 @@ export class Skill extends React.Component {
 						<h5>REACT</h5>
 						<div className="progressContainer">
 							<div className="progressBar">
-								<div id="progressREACT"></div>
+								<div className="wow progressREACT"></div>
 							</div>
 							<div id="progressPercentJS">90%</div>
 						</div>
 						<h5>HTML & CSS</h5>
 						<div className="progressContainer">
 							<div className="progressBar">
-								<div id="progressCSS"></div>
+								<div className="wow progressCSS"></div>
 							</div>
 							<div id="progressPercentJS">95%</div>
 						</div>
@@ -49,21 +55,21 @@ export class Skill extends React.Component {
 						<h5>CISCO (CCNA)</h5>
 						<div className="progressContainer">
 							<div className="progressBar">
-								<div id="progressCISCO"></div>
+								<div className="wow progressCISCO"></div>
 							</div>
 							<div id="progressPercentJS">98%</div>
 						</div>
 						<h5>MIKROTIK</h5>
 						<div className="progressContainer">
 							<div className="progressBar">
-								<div id="progressMIKROTIK"></div>
+								<div className="wow progressMIKROTIK"></div>
 							</div>
 							<div id="progressPercentJS">75%</div>
 						</div>
 						<h5>UBIQUITI</h5>
 						<div className="progressContainer">
 							<div className="progressBar">
-								<div id="progressUNIFI"></div>
+								<div className="wow progressUNIFI"></div>
 							</div>
 							<div id="progressPercentJS">80%</div>
 						</div>
