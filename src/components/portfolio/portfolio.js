@@ -13,7 +13,9 @@ export class Portfolio extends React.Component {
 						<h3> Baefolio </h3>
 					</div>	
 					<div className="featuredImageContainer">
-						<img src="" />
+						<a href="#home">
+							<img src="" id="baeFolioImage" />
+						</a>
 					</div>
 					<div className="featuredContentContainer">
 						<div className="projectDiscription">
@@ -51,7 +53,9 @@ export class Portfolio extends React.Component {
 						<h3> smartBrain </h3>
 					</div>	
 					<div className="featuredImageContainer">
-						<img src="" />
+						<a href="###">
+							<img src="" id="smartBrainImg" />
+						</a>
 					</div>
 					<div className="featuredContentContainer">
 						<div className="projectDiscription">
@@ -89,7 +93,7 @@ export class Portfolio extends React.Component {
 						<h3> eyesOFjimoh </h3>
 					</div>	
 					<div className="featuredImageContainer">
-						<img src="" />
+						<img src="" id="eyesOfJimohImg" />
 					</div>
 					<div className="featuredContentContainer">
 						<div className="projectDiscription">
