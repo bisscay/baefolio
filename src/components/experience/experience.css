@@ -1,9 +1,14 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: darkgrey;
+}
+
 .linkBody {
-	background-image: url('../../images/whiteWood.jpg');
-	background-color: white;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-image: url('../../images/whiteWood.jpg');*/
 	border-radius: 0.8%;
 	display: grid;
 	grid-template-columns: 45% 55%;
@@ -18,11 +23,16 @@
 .expContainer {
 	grid-column: 2 / 3;
 	color: black;
+	background-image: url('../../images/whiteWood.jpg');
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .expContainerBody {
-	background-color: rgb(23, 42, 69);
-  color: rgb(168, 178, 209);
+	background-color: rgb(173, 104, 46);
+  color: black;
   font-size: 17px;
   line-height: 1.3;
   padding: 20px;
@@ -30,7 +40,7 @@
 }
 
 button {
-	background-color: rgb(23, 42, 69);
+	background-color: rgb(173, 104, 46);
 }
 
 .grow:hover {
@@ -38,8 +48,9 @@ button {
 }
 
 .grow:focus {
-	/*background-image: url('../../images/whiteWood.jpg');*/
-	background-color: transparent;
+	background-image: url('../../images/whiteWood.jpg');
+	background-position: center;
+	background-color: white;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
