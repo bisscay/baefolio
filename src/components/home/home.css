@@ -21,3 +21,9 @@
 .catchy {
 	color: #00D646;
 }
+
+@media (max-width: 37.5em) {
+	.home {
+		font-size: 1.2em;
+	}
+}

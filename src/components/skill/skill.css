@@ -7,6 +7,12 @@
 	grid-column: 1 / 2;
 }
 
+@media (max-width: 62.5em) {
+	.aboutText {
+		grid-column: 1 / -1;
+	}
+}
+
 .aboutImage {
 	grid-column: 3 / 4;
 	border-radius: 100%;
@@ -29,6 +35,26 @@
 
 .netSkills {
 	grid-column: 3 / 4;
+}
+
+@media (max-width: 37.5em) {
+	.aboutImage {
+		grid-column: 1 / -1;
+	}
+
+	.aboutText {
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 30em) {
+	.softSkills {
+		grid-column: 1 / -1;
+	}
+
+	.netSkills {
+		grid-column: 1 / -1;
+	}
 }
 
 .progressContainer {

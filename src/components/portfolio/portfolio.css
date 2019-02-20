@@ -78,7 +78,9 @@ p {
 }
 
 @media (max-width: 37.5em) {
-	/*grid-colum: 1 / -1;*/
+	.featuredImageContainer {
+		grid-column: 1 / -1;
+	}
 }
 
 @media (max-width: 48em) {

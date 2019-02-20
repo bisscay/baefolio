@@ -10,24 +10,34 @@ a:hover {
 .linkBody {
 	/*background-image: url('../../images/whiteWood.jpg');*/
 	border-radius: 0.8%;
-	display: grid;
-	grid-template-columns: 45% 55%;
 }
 
 .pills {
-	grid-column: 1 / 2;
 	margin-bottom: -27px;
 	/*background-color: rgb(23, 42, 69);*/
 }
 
 .expContainer {
-	grid-column: 2 / 3;
 	color: black;
 	background-image: url('../../images/whiteWood.jpg');
 	background-color: white;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media (max-width: 37.5em) {
+	button {
+		margin-right: 100em;
+	}
+
+	.pills {
+		grid-column: 1 / -1;
+	}
+
+	.expContainer {
+		grid-column: 1 / -1;
+	}
 }
 
 .expContainerBody {

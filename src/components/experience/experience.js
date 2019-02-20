@@ -74,21 +74,15 @@ export class Experience extends React.Component {
 				<h1> Experience </h1>
 					<div className="linkBody">
 						<div className="pills pt4 pl3">
-								<div>
-									<button onClick={this.changeColor} className="f5 grow br-pill ba ph3 pv2 mb2 mr2 white">
-										Federal Medical Centre Jabi
-									</button>
-								</div>
-								<div>
-									<button onClick={this.changeColor2} className="f5 grow br-pill ph3 pv2 mb2 ba mr2 white">
-										Federal Medical Centre Keffi
-									</button>
-								</div>
-								<div>
-									<button onClick={this.changeText3} className="f5 grow br-pill ph3 pv2 mb2 ba white">
-										National Space Research and Development Agency
-									</button>
-								</div>
+								<button onClick={this.changeColor} className="f5 grow br-pill ba ph3 pv2 mb2 mr2 white dib">
+									FMC Jabi
+								</button>
+								<button onClick={this.changeColor2} className="f5 grow br-pill ph3 pv2 mb2 ba mr2 white dib">
+									FMC Keffi
+								</button>
+								<button onClick={this.changeText3} className="f5 grow br-pill ph3 pv2 mb2 ba white dib">
+									NSRDA
+								</button>
 						</div>
 						<div className="expContainer pa3 pa5-ns">
 							<div className="expContainerBody f5 lh-copy measure-wide">
