@@ -22,8 +22,8 @@ a {
 .featuredImageContainer {
 	grid-column: 1 / 6;
 	background-color: black;
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	background-position: center;
 	background-size: cover;
 }
@@ -55,24 +55,24 @@ p {
 
 #baeFolioImage {
 	background-image: url("../../images/baefolio.png");
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	background-position: center;
 	background-size: cover;
 }
 
 #smartBrainImg {
 	background-image: url("../../images/appleBW.jpg");
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	background-position: center;
 	background-size: cover;
 }
 
 #eyesOfJimohImg {
 	background-image: url("../../images/portfolio.jpg");
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	background-position: center;
 	background-size: cover;
 }
@@ -81,8 +81,4 @@ p {
 	.featuredImageContainer {
 		grid-column: 1 / -1;
 	}
-}
-
-@media (max-width: 48em) {
-	
 }

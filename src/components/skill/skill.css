@@ -7,17 +7,11 @@
 	grid-column: 1 / 2;
 }
 
-@media (max-width: 62.5em) {
-	.aboutText {
-		grid-column: 1 / -1;
-	}
-}
-
 .aboutImage {
 	grid-column: 3 / 4;
 	border-radius: 100%;
-	width: 300px;
-	height: 300px;
+	width: 280px;
+	height: 280px;
 	/*background-image: url('bae.png');*/
 	background-color: black;
 }
@@ -44,6 +38,7 @@
 
 	.aboutText {
 		font-size: 1em;
+		grid-column: 1 / -1;
 	}
 }
 

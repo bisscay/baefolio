@@ -5,7 +5,7 @@ export class Contact extends React.Component {
 	render() {
 		return(
 			<div id="contact">
-				<h1 className="pl5">Get In Touch</h1>
+				<h1 className="pl5 blu">Get In Touch</h1>
 				<p>Although I'm not currently looking for any freelance opportunities, 
 					my inbox is always open. 
 					Whether for a potential project or just to say hi, 
