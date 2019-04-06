@@ -8,13 +8,13 @@ export class Experience extends React.Component {
 			position: 'ICT Engineer',
 			link: 'https://fmckeffi.com.ng/',
 			arialLabel: 'Federal Medical Centre Jabi',
-			employer: 'Federal Medical Centre Jabi',
+			employer: '@ Federal Medical Centre Jabi',
 			period: 'Nov. 18 - Present',
-			role1: 'Developing a website for the institution.', 
-			role2: '###',
-			role3: 'Running and termination of CAT 6 cables.',
-			role4: '###',
-			role5: 'Maintenance of network devices, OS installation and optimization.'
+			role1: 'Wireless Cloud Network Implemetation and Maintenance for Internet Service.', 
+			role2: 'Developing a website for the institution.',
+			role3: 'Occasional maintenance of devices within the topology.',
+			role4: 'Operating system installation and optimization, software updates and hard disk partitioning of personal computers.',
+			role5: 'Replacement and possible fixing of damaged system parts.'
 		};
 		this.changeColor = this.changeColor.bind(this);
 		this.changeColor2 = this.changeColor2.bind(this);
@@ -28,13 +28,13 @@ export class Experience extends React.Component {
 			position: 'ICT Engineer',
 			link: 'https://fmckeffi.com.ng/',
 			arialLabel: 'Federal Medical Centre Jabi',
-			employer: 'Federal Medical Centre Jabi',
+			employer: '@ Federal Medical Centre Jabi',
 			period: 'Nov. 18 - Present',
-			role1: 'Developing a website for the institution.', 
-			role2: '###',
-			role3: 'Running and termination of CAT 6 cables.',
-			role4: '###',
-			role5: 'Maintenance of network devices, OS installation and optimization.'
+			role1: 'Wireless Cloud Network Implemetation and Maintenance for Internet Service.', 
+			role2: 'Developing a website for the institution.',
+			role3: 'Occasional maintenance of devices within the topology.',
+			role4: 'Operating system installation and optimization, software updates and hard disk partitioning of personal computers.',
+			role5: 'Replacement and possible fixing of damaged system parts.'
 		});
 	}
 
@@ -43,7 +43,7 @@ export class Experience extends React.Component {
 			position: 'Networking and Maintenance Engineer',
 			link: 'https://fmckeffi.com.ng/',
 			arialLabel: 'Federal Medical Centre Keffi',
-			employer: 'Federal Medical Centre Keffi',
+			employer: '@ Federal Medical Centre Keffi',
 			period: 'Nov. 17 - Nov. 18',
 			role1: 'Mounting and configuration of Cisco routers, Cisco and DLINK switches, Mikrotik and Ubiquiti access points.', 
 			role2: 'Coupling and mounting of racks, patch panels, faceplates.',
@@ -58,7 +58,7 @@ export class Experience extends React.Component {
 			position: 'Advanced Communication Internship',
 			link: 'http://nasrda.gov.ng/en/',
 			arialLabel: 'National Space Research and Development Agency',
-			employer: 'National Space Research and Development Agency',
+			employer: '@ National Space Research and Development Agency',
 			period: 'June 16 - Sept. 16',
 			role1: 'Designed and simulated an inverter using a multivibratpr in LT Spice.', 
 			role2: 'Implemented an inverter that powered a 128GB RAM, 4TB system.',
@@ -87,7 +87,7 @@ export class Experience extends React.Component {
 						<div className="expContainer pa3 pa5-ns">
 							<div className="expContainerBody f5 lh-copy measure-wide">
 								<h2>{this.state.note}</h2>
-									<p>{this.state.position}</p>
+									<p><strong>{this.state.position}</strong></p>
 									<a href={this.state.link}
 										target="_blank"
 										rel="nofollow noopener noreferrer"

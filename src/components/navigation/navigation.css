@@ -48,6 +48,11 @@
     width: 100%;
 }
 
+.kelly-green {
+    /*color: #4cbb17;*/
+    color: #00D646;
+}
+
 .dark-gray {
     color: #4d4d4f;
 }
@@ -140,4 +145,33 @@
     .f5-l {
         font-size: 1rem;
     }
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top:0;
+}
+
+.navbar--hidden {
+  top: -120px;
+}
+
+#imgN {
+  background-image: url('../../images/logo.png');
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*width: 1rem;*/
+
+}
+
+a > div {
+    width: 2.5rem;
+}
+
+a > div {
+    height: 2.5rem;
 }

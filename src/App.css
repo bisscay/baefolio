@@ -8,13 +8,19 @@
   /* min-height: 100vh; */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 80px 720px 1100px 900px 1500px 600px 67px;
+  grid-template-rows: 40px 720px 1100px 900px 1500px 600px 67px;
  
   /* font-size: calc(10px + 2vmin); */
   color: white;
   font-size: 17px;
   line-height: 1.3;
   width: 100%;
+}
+
+@media (max-width: 320px) {
+  .experience {
+    font-size: 1px;
+  }
 }
 
 .nav {
@@ -36,7 +42,7 @@
 }
 
 .experience {
-  grid-column: 4 / 10;
+  grid-column: 3 / 10;
   grid-row: 4 / 5;
 }
 

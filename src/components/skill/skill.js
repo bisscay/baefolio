@@ -20,7 +20,6 @@ export class Skill extends React.Component {
 						<p>I also design and develop high quality websites and applications.</p>
 					</div>
 					<div className="aboutImage">
-						<img />
 					</div>
 				</div>
 				<h3>Here are a few things I'm experienced with:</h3>

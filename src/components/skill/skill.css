@@ -12,7 +12,10 @@
 	border-radius: 100%;
 	width: 280px;
 	height: 280px;
-	/*background-image: url('bae.png');*/
+	background-image: url('../../images/passport.JPG');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	background-color: black;
 }
 
